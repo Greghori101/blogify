@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3133616357b7678609a8475db3c80dd",
+    "content-hash": "b19f033ef523f1e0df627f80562a3244",
     "packages": [
         {
             "name": "brick/math",
@@ -8589,37 +8589,37 @@
         },
         {
             "name": "pestphp/pest-plugin-browser",
-            "version": "v4.0.0",
+            "version": "v4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest-plugin-browser.git",
-                "reference": "9b493ba1f64a12b49f838b7263a91dd219789e94"
+                "reference": "da70fce21e4b33ba22bef1276f654e77676213d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest-plugin-browser/zipball/9b493ba1f64a12b49f838b7263a91dd219789e94",
-                "reference": "9b493ba1f64a12b49f838b7263a91dd219789e94",
+                "url": "https://api.github.com/repos/pestphp/pest-plugin-browser/zipball/da70fce21e4b33ba22bef1276f654e77676213d7",
+                "reference": "da70fce21e4b33ba22bef1276f654e77676213d7",
                 "shasum": ""
             },
             "require": {
-                "amphp/amp": "^3.1.0",
+                "amphp/amp": "^3.1.1",
                 "amphp/http-server": "^3.4.3",
-                "amphp/websocket-client": "^2.0.1",
+                "amphp/websocket-client": "^2.0.2",
                 "ext-sockets": "*",
-                "pestphp/pest": "^4.0.0",
+                "pestphp/pest": "^4.1.0",
                 "pestphp/pest-plugin": "^4.0.0",
                 "php": "^8.3",
-                "symfony/process": "^7.3.0"
+                "symfony/process": "^7.3.4"
             },
             "require-dev": {
                 "ext-pcntl": "*",
                 "ext-posix": "*",
-                "livewire/livewire": "dev-main",
+                "livewire/livewire": "^3.6.4",
                 "nunomaduro/collision": "^8.8.2",
-                "orchestra/testbench": "^10.5.0",
+                "orchestra/testbench": "^10.6.0",
                 "pestphp/pest-dev-tools": "^4.0.0",
                 "pestphp/pest-plugin-laravel": "^4.0",
-                "pestphp/pest-plugin-type-coverage": "^4.0.1"
+                "pestphp/pest-plugin-type-coverage": "^4.0.2"
             },
             "type": "library",
             "extra": {
@@ -8652,7 +8652,7 @@
                 "unit"
             ],
             "support": {
-                "source": "https://github.com/pestphp/pest-plugin-browser/tree/v4.0.0"
+                "source": "https://github.com/pestphp/pest-plugin-browser/tree/v4.1.1"
             },
             "funding": [
                 {
@@ -8668,7 +8668,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2025-08-20T13:19:11+00:00"
+            "time": "2025-09-29T01:31:33+00:00"
         },
         {
             "name": "pestphp/pest-plugin-mutate",
@@ -10790,12 +10790,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }

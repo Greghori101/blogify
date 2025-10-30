@@ -11,24 +11,23 @@
                             Email
                         </label>
                         <input type="email" name="email" class="form-control @error('email') is-invalid @enderror"
-                               id="email" value="{{ old('email') }}">
+                            id="email" value="{{ old('email') }}">
                         @error('email')
-                        <div class="invalid-feedback">
-                            {{ $message }}
-                        </div>
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                            </div>
                         @enderror
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label">
                             Password
                         </label>
-                        <input type="password" name="password"
-                               class="form-control @error('password') is-invalid @enderror"
-                               id="password">
+                        <input type="password" name="password" class="form-control @error('password') is-invalid @enderror"
+                            id="password">
                         @error('password')
-                        <div class="invalid-feedback">
-                            {{ $message }}
-                        </div>
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                            </div>
                         @enderror
                     </div>
                     <div class="d-flex justify-content-between align-items-center">

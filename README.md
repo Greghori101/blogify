@@ -113,3 +113,39 @@ Show us how you think.
 ## **Closing Note**
 
 We look forward to reviewing your solution and seeing how you approach real-world API integration challenges.
+
+---
+
+# Nex Digital / Goodcommerce
+
+## Fullstack Developer Test
+
+### Blogify Platform with Content Importer
+
+A simple blog platform that can import content from external APIs and provide admin management for posts.
+
+---
+
+## Features
+
+- Blog posts with: `title`, `content`, `status` (draft/published), `source`, `external_id`
+- Admin panel for managing posts
+- Import functionality for external APIs:
+  - JSONPlaceholder: random blog post
+  - FakeStore API: random product (transformed to blog post)
+- Duplicate prevention
+- Imports saved as drafts
+- CLI command for single-item import
+
+---
+
+## Setup
+
+```bash
+git clone [repository]
+cd blogify
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve

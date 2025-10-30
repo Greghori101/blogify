@@ -28,7 +28,13 @@
 
                     <div class="mb-3">
                         <label class="form-label">Source</label>
-                        <input name="source" type="text" class="form-control" value="local" required>
+                        <select name="source" class="form-control" required>
+                            @foreach (\App\Enums\PostSource::cases() as $source)
+                                <option value="{{ $source->value }}">
+                                    {{ ucfirst($source->value) }}
+                                </option>
+                            @endforeach
+                        </select>
                     </div>
 
                     <div class="mb-3">

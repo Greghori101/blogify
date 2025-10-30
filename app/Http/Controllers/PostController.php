@@ -27,7 +27,7 @@ class PostController extends Controller
             'status' => 'required|in:draft,published',
         ]);
 
-        $validated['source'] = 'manual';
+        $validated['source'] = 'local';
         $validated['external_id'] = uniqid('manual_');
         $validated['user_id'] = Auth::id();
 

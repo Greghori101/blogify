@@ -29,7 +29,7 @@
                     <div class="mb-3">
                         <label class="form-label">Source</label>
                         <select name="source" class="form-control" required>
-                            @foreach (\App\Enums\PostSource::cases() as $source)
+                            @foreach (\App\Enums\PostSources::cases() as $source)
                                 <option value="{{ $source->value }}">
                                     {{ ucfirst($source->value) }}
                                 </option>
